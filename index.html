@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub API</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Busque por um perfil no Github">
+            <button id="searchBtn">Pesquisar</button>
+            <div class="notification">
+                Digite o Usuário
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-img">
+                <img src="https://avatars.githubusercontent.com/u/115941100?v=4" id="profileImg">
+            </div>
+
+            <div class="profile-info">
+                <h2 id="profileName">Marcos Vieira</h2>
+                <p id="profileBio">Lorem ipsum.</p>
+
+                <div class="profile-followers">
+                    <div class="followers">
+                        <h3>Followers</h3>
+                        <p id="profileFollowers">100</p>
+                    </div>
+
+                    <div class="following">
+                        <h3>Following</h3>
+                        <p id="profileFollowing">100</p>
+                    </div>
+                </div>
+                <div class="profile-repros">
+                    <h3>Repossitórios</h3>
+                    <p id="profileRepro">100</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="respositories">
+            <h2>Respositórios</h2>
+            <div class="respositories__items">
+                <div class="repo">
+                    <h3>Repo 1</h3>
+                    <p>Stars: 100</p>
+                </div>
+
+                <div class="repo">
+                    <h3>Repo 2</h3>
+                    <p>Stars: 80</p>
+                </div>
+
+                <div class="repo">
+                    <h3>Repo 3</h3>
+                    <p>Stars: 120</p>
+                </div>
+
+                <div class="repo">
+                    <h3>Repo 4</h3>
+                    <p>Stars: 12</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
